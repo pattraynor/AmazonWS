@@ -50,7 +50,7 @@ namespace AmazonWS
             List<string> test = null;
             string accessKeyId = "AKIAJCGNMCLKEFFNXMAA";
             string associateID = "asutest20-20";
-            string timestamp = DateTime.Now.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss.fffZ");
+            string timestamp = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ");
             /*http://webservices.amazon.com/onca/xml?
             Service = AWSECommerceService &
             AWSAccessKeyId =[AWS Access Key ID] & AKIAJCGNMCLKEFFNXMAA
